@@ -1,0 +1,20 @@
+{
+  "name": "mdlpress",
+  "description": "Material Design Lite Wordpress theme",
+  "main": "index.js",
+  "authors": [
+    "mg"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "material-design-lite": "^1.2.1"
+  }
+}
