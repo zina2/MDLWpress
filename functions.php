@@ -104,6 +104,8 @@ add_action( 'widgets_init', 'mdlpress_widgets_init' );
  */
 function mdlpress_scripts() {
 	wp_enqueue_style( 'mdlpress-style', get_stylesheet_uri() );
+    
+    wp_enqueue_style( 'material-icons', 'https://fonts.googleapis.com/icon?family=Material+Icons' );
 
 	wp_enqueue_script( 'mdlpress-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
